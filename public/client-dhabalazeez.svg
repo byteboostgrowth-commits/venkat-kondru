@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" width="100%" height="100%">
+  <defs>
+    <!-- Deep Royal Purple Radial Gradient matching Dhaba-Lazeez.jpg -->
+    <radialGradient id="dlPurple" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4C157D" />
+      <stop offset="60%" stop-color="#280A47" />
+      <stop offset="100%" stop-color="#140326" />
+    </radialGradient>
+
+    <!-- 3D Gold Gradient for LAZEEZ Typography -->
+    <linearGradient id="dlGold3d" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE866" />
+      <stop offset="35%" stop-color="#FFB300" />
+      <stop offset="70%" stop-color="#FF6F00" />
+      <stop offset="100%" stop-color="#D84315" />
+    </linearGradient>
+
+    <linearGradient id="dlGoldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="40%" stop-color="#F5A623" />
+      <stop offset="80%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+
+    <filter id="dlGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Purple Badge with Golden Trim -->
+  <g transform="translate(260, 260)">
+    <circle cx="0" cy="0" r="248" fill="url(#dlPurple)" stroke="url(#dlGoldBorder)" stroke-width="7" />
+    <circle cx="0" cy="0" r="236" fill="none" stroke="#F5A623" stroke-width="1.5" opacity="0.6" stroke-dasharray="6, 4" />
+
+    <!-- Background Dhaba Huts & Glowing Lanterns -->
+    <g opacity="0.65">
+      <!-- Left hut -->
+      <path d="M -200 -20 L -160 -60 L -110 -60 L -80 -20 Z" fill="#1A0730" />
+      <rect x="-170" y="-20" width="70" height="40" fill="#240A42" />
+      <rect x="-155" y="-10" width="18" height="18" rx="2" fill="#FFDE59" opacity="0.9" />
+      <!-- Lantern glow on left -->
+      <circle cx="-185" cy="-25" r="5" fill="#FFDE59" />
+
+      <!-- Right hut -->
+      <path d="M 80 -20 L 110 -60 L 160 -60 L 200 -20 Z" fill="#1A0730" />
+      <rect x="100" y="-20" width="70" height="40" fill="#240A42" />
+      <rect x="135" y="-10" width="18" height="18" rx="2" fill="#FFDE59" opacity="0.9" />
+      <!-- Lantern glow on right -->
+      <circle cx="185" cy="-25" r="5" fill="#FFDE59" />
+
+      <!-- Distant Taj Mahal / Mughal Dome Silhouette in center background -->
+      <path d="M -40 -60 C -40 -80, -20 -95, 0 -95 C 20 -95, 40 -80, 40 -60 Z" fill="#1F0738" />
+      <line x1="0" y1="-95" x2="0" y2="-110" stroke="#1F0738" stroke-width="2" />
+      <circle cx="0" cy="-110" r="2" fill="#FFDE59" />
+    </g>
+
+    <!-- Master Chef Character -->
+    <g transform="translate(0, -95)" filter="url(#dlGlow)">
+      <!-- Purple Toque with Gold Trim -->
+      <path d="M -42 -40 C -65 -75, -20 -105, 0 -95 C 20 -105, 65 -75, 42 -40 C 38 -32, -38 -32, -42 -40 Z" fill="#3D1263" stroke="#F5A623" stroke-width="2.5" />
+      <path d="M -32 -40 L 32 -40 L 26 -22 L -26 -22 Z" fill="#2A0A47" stroke="#F5A623" stroke-width="2" />
+      
+      <!-- Cheerful Face & Moustache -->
+      <ellipse cx="0" cy="0" rx="28" ry="24" fill="#F8C291" stroke="#331D12" stroke-width="1.5" />
+      <!-- Eyes -->
+      <path d="M -16 -6 Q -12 -12, -8 -6 M 8 -6 Q 12 -12, 16 -6" stroke="#2B1810" stroke-width="3" fill="none" stroke-linecap="round" />
+      <!-- Big Mustache -->
+      <path d="M -26 12 C -18 8, -4 6, 0 10 C 4 6, 18 8, 26 12 C 32 16, 28 22, 22 18 C 16 14, 6 12, 0 16 C -6 12, -16 14, -22 18 C -28 22, -32 16, -26 12 Z" fill="#2B1810" />
+      <!-- Cheerful Smile -->
+      <path d="M -10 18 Q 0 25, 10 18" stroke="#800000" stroke-width="2" fill="none" />
+      
+      <!-- Orange Neck Scarf -->
+      <path d="M -20 22 C -10 26, 10 26, 20 22 L 14 36 L -14 36 Z" fill="#FF6B00" />
+      <!-- Chef Coat with Gold Buttons -->
+      <path d="M -48 34 L 48 34 L 60 70 L -60 70 Z" fill="#3D1263" />
+      <circle cx="0" cy="46" r="3" fill="#FFDE59" />
+      <circle cx="0" cy="58" r="3" fill="#FFDE59" />
+
+      <!-- Left Hand: Thumbs Up -->
+      <g transform="translate(-62, 25)">
+        <path d="M 0 18 C -6 16, -10 6, -10 -2 C -10 -10, -2 -12, 0 -6 L 0 18 Z" fill="#F8C291" stroke="#331D12" stroke-width="1.5" />
+        <rect x="-4" y="-2" width="16" height="24" rx="4" fill="#F8C291" stroke="#331D12" stroke-width="1.5" />
+      </g>
+
+      <!-- Right Hand: Holding Serving Cloche -->
+      <g transform="translate(68, 20)">
+        <ellipse cx="0" cy="8" rx="34" ry="7" fill="#F5A623" />
+        <path d="M -30 6 C -30 -18, 30 -18, 30 6 Z" fill="#4C157D" stroke="#F5A623" stroke-width="2" />
+        <circle cx="0" cy="-18" r="4.5" fill="#F5A623" />
+        <!-- Cloche Steam -->
+        <path d="M -6 -24 Q 0 -34, -4 -42 M 6 -24 Q 12 -34, 8 -42" stroke="#FFDE59" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8" />
+      </g>
+    </g>
+
+    <!-- "DHABA" Arched Woodcut Typography -->
+    <g transform="translate(0, -5)" filter="url(#dlGlow)">
+      <text x="0" y="0" 
+            font-family="'Playfair Display', 'Cinzel', 'Impact', serif" 
+            font-size="44" 
+            font-weight="900" 
+            letter-spacing="5" 
+            text-anchor="middle" 
+            fill="#FFFFFF" 
+            stroke="#210538" 
+            stroke-width="2">
+        DHABA
+      </text>
+    </g>
+
+    <!-- "LAZEEZ" 3D Curved Golden Banner Typography -->
+    <g transform="translate(0, 68)" filter="url(#dlGlow)">
+      <!-- Left Golden Flourish Wing -->
+      <path d="M -175 -15 C -210 -15, -230 15, -200 25 C -180 32, -185 10, -170 8 Z" fill="url(#dlGoldBorder)" />
+      <!-- Right Golden Flourish Wing -->
+      <path d="M 175 -15 C 210 -15, 230 15, 200 25 C 180 32, 185 10, 170 8 Z" fill="url(#dlGoldBorder)" />
+
+      <!-- Massive 3D Letters: LAZEEZ -->
+      <text x="0" y="0" 
+            font-family="'Playfair Display', 'Arial Black', sans-serif" 
+            font-size="82" 
+            font-weight="900" 
+            letter-spacing="3" 
+            text-anchor="middle" 
+            fill="url(#dlGold3d)" 
+            stroke="#5D1402" 
+            stroke-width="3">
+        LAZEEZ
+      </text>
+    </g>
+
+    <!-- Curved Dark Ribbon: THE TASTE OF INDIA -->
+    <g transform="translate(0, 108)">
+      <rect x="-160" y="-15" width="320" height="30" rx="15" fill="#140326" stroke="url(#dlGoldBorder)" stroke-width="1.5" />
+      <text x="0" y="5" 
+            font-family="'Montserrat', 'Arial', sans-serif" 
+            font-size="14.5" 
+            font-weight="800" 
+            letter-spacing="3" 
+            text-anchor="middle" 
+            fill="#FFFFFF">
+        — THE TASTE OF INDIA —
+      </text>
+    </g>
+
+    <!-- Bottom Food Elements: Handi Pot, Chili, Garlic, Spices -->
+    <g transform="translate(0, 172)" filter="url(#dlGlow)">
+      <!-- Handi Pot Body -->
+      <ellipse cx="0" cy="15" rx="38" ry="18" fill="#8D4C28" stroke="#461E0A" stroke-width="2" />
+      <path d="M -36 15 C -36 38, 36 38, 36 15 Z" fill="#6E3211" />
+      <ellipse cx="0" cy="12" rx="32" ry="10" fill="#E5A024" />
+      <circle cx="0" cy="12" r="3" fill="#2E7D32" />
+      <!-- Handi Steam -->
+      <path d="M -6 4 Q -2 -6, -5 -14 M 6 4 Q 10 -6, 7 -14" stroke="#FFE082" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8" />
+
+      <!-- Red Chili Pepper on Left -->
+      <path d="M -45 10 C -70 18, -80 -2, -60 22 C -50 26, -42 16, -45 10 Z" fill="#D32F2F" stroke="#B71C1C" stroke-width="1.5" />
+      <path d="M -75 2 C -78 -2, -72 -6, -70 -2" stroke="#2E7D32" stroke-width="2" fill="none" />
+
+      <!-- Garlic Bulb on Left -->
+      <ellipse cx="-40" cy="22" rx="10" ry="10" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1" />
+      <path d="M -40 12 L -40 8" stroke="#8D6E63" stroke-width="1.5" />
+
+      <!-- Star Anise & Spices on Right -->
+      <g transform="translate(55, 18) scale(0.7)" fill="#5D4037">
+        <polygon points="0,-12 3,-3 12,-3 5,2 8,11 0,6 -8,11 -5,2 -12,-3 -3,-3" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "Byteboost AI Agency",
+  "description": "AI-First Digital Marketing Agency from Visakhapatnam specializing in intelligent marketing, graphic design, web design, mobile apps, and custom AI tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

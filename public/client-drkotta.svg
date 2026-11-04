@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ksGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDF73" />
+      <stop offset="50%" stop-color="#D99B26" />
+      <stop offset="100%" stop-color="#B8770F" />
+    </linearGradient>
+    <linearGradient id="ksSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#CFD8DC" />
+      <stop offset="100%" stop-color="#90A4AE" />
+    </linearGradient>
+    <linearGradient id="ksNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14325C" />
+      <stop offset="100%" stop-color="#0A1C38" />
+    </linearGradient>
+    <!-- Curved paths for text -->
+    <path id="topArch" d="M 55 200 A 145 145 0 0 1 345 200" fill="none" />
+    <path id="bottomArch" d="M 70 200 A 130 130 0 0 0 330 200" fill="none" />
+  </defs>
+
+  <!-- Background circular badge -->
+  <circle cx="200" cy="200" r="188" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+  
+  <!-- Outer Ring with Stars Pattern -->
+  <circle cx="200" cy="200" r="172" fill="none" stroke="#CBD5E1" stroke-dasharray="3, 7" stroke-width="1.5" />
+  
+  <!-- Outer Gold Stars -->
+  <g fill="url(#ksGold)" font-size="9" text-anchor="middle">
+    <!-- Circle of gold star indicators -->
+    <text x="200" y="32">★</text>
+    <text x="240" y="38">★</text>
+    <text x="280" y="52">★</text>
+    <text x="315" y="75">★</text>
+    <text x="342" y="106">★</text>
+    <text x="360" y="145">★</text>
+    <text x="366" y="185">★</text>
+    <text x="360" y="225">★</text>
+    <text x="342" y="264">★</text>
+    <text x="315" y="295">★</text>
+    <text x="280" y="318">★</text>
+    <text x="160" y="38">★</text>
+    <text x="120" y="52">★</text>
+    <text x="85" y="75">★</text>
+    <text x="58" y="106">★</text>
+    <text x="40" y="145">★</text>
+    <text x="34" y="185">★</text>
+    <text x="40" y="225">★</text>
+    <text x="58" y="264">★</text>
+    <text x="85" y="295">★</text>
+    <text x="120" y="318">★</text>
+  </g>
+
+  <!-- Teal Concentric Border Ring -->
+  <circle cx="200" cy="200" r="132" fill="none" stroke="#009688" stroke-width="5" />
+  <circle cx="200" cy="200" r="126" fill="none" stroke="#80CBC4" stroke-width="1.5" />
+
+  <!-- Inner Navy Blue Core Circle -->
+  <circle cx="200" cy="200" r="120" fill="url(#ksNavy)" />
+
+  <!-- Silver Profile Head + Gold Brain + Caring Hand -->
+  <g transform="translate(145, 130)">
+    <!-- Human head silhouette in silver -->
+    <path d="M 45 10 C 15 10, -5 32, -5 65 C -5 78, -1 88, -8 98 C -14 106, -7 114, 0 114 C 8 114, 8 120, 5 125 C 2 130, 8 135, 14 135 C 22 135, 26 142, 28 152 L 52 152 C 55 138, 62 130, 68 120 C 78 105, 82 85, 82 60 C 82 30, 70 10, 45 10 Z" 
+          fill="url(#ksSilver)" />
+    
+    <!-- Golden Brain Anatomy (Lobes & Sulci) -->
+    <path d="M 28 20 C 22 18, 12 25, 12 36 C 8 38, 5 45, 8 52 C 12 58, 20 60, 24 56 C 26 62, 34 65, 42 63 C 50 60, 55 52, 54 44 C 60 40, 62 30, 56 22 C 50 14, 36 14, 28 20 Z" 
+          fill="url(#ksGold)" />
+    <!-- Brain details/convolutions -->
+    <path d="M 20 28 Q 28 32, 36 26 M 16 42 Q 26 38, 38 44 M 28 44 Q 38 52, 48 44 M 34 26 Q 44 28, 48 36" 
+          stroke="#996515" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <!-- Supportive Caring Hand in Silver -->
+    <path d="M 12 145 C 24 148, 55 142, 68 118 C 76 102, 85 70, 84 52 C 84 48, 80 48, 78 54 C 74 72, 65 95, 54 108 C 45 118, 28 128, 12 145 Z" 
+          fill="url(#ksSilver)" />
+  </g>
+
+  <!-- Top Curved Text: BRAIN & SPINE SURGEON -->
+  <text font-family="'Montserrat', 'Arial', sans-serif" font-size="14" font-weight="800" fill="#0A2540" letter-spacing="3.5">
+    <textPath href="#topArch" startOffset="50%" text-anchor="middle">
+      BRAIN &amp; SPINE SURGEON
+    </textPath>
+  </text>
+
+  <!-- Bottom Curved Text: Dr. Kotta Srawant -->
+  <text font-family="'Montserrat', 'Arial', sans-serif" font-size="17" font-weight="800" fill="#0A2540" letter-spacing="1">
+    <textPath href="#bottomArch" startOffset="50%" text-anchor="middle">
+      Dr. Kotta Srawant
+    </textPath>
+  </text>
+</svg>

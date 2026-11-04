@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 240" width="100%" height="100%">
+  <!-- White Background Rectangle -->
+  <rect width="650" height="240" rx="8" fill="#FFFFFF" />
+
+  <!-- Dynamic Circular Icon -->
+  <g transform="translate(100, 115)">
+    <!-- Deep Indigo Circle -->
+    <circle cx="0" cy="0" r="54" fill="#242686" />
+    
+    <!-- White Dynamic Rehabilitating Figure -->
+    <!-- Head -->
+    <circle cx="22" cy="-22" r="10" fill="#FFFFFF" />
+    
+    <!-- Arching Torso and Agile Spine -->
+    <path d="M 12 -10 C -6 2, -18 20, -22 36 C -18 24, -2 12, 10 2 C 16 -4, 18 -8, 12 -10 Z" fill="#FFFFFF" />
+    
+    <!-- Energetic Forward Limb / Arm -->
+    <path d="M 12 -8 C 22 -4, 28 8, 20 18 C 16 12, 14 2, 8 -4 Z" fill="#FFFFFF" />
+    
+    <!-- Supporting Dynamic Leg / Curve -->
+    <path d="M -18 30 C -12 18, 0 10, 14 22 C 4 18, -6 22, -12 36 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- "Geetha's" Cursive Script Typography in Magenta / Purple -->
+  <text x="145" y="195" 
+        font-family="'Brush Script MT', 'Dancing Script', 'Great Vibes', 'Allura', cursive" 
+        font-size="64" 
+        font-weight="bold" 
+        font-style="italic" 
+        text-anchor="middle" 
+        fill="#9E1B73">
+    Geetha&apos;s
+  </text>
+
+  <!-- Vertical Divider Line -->
+  <line x1="265" y1="52" x2="265" y2="185" stroke="#334155" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Descriptive Text Lines in Deep Navy -->
+  <g transform="translate(285, 92)" fill="#242686" font-family="'Montserrat', 'Segoe UI', Arial, sans-serif">
+    <text x="0" y="0" font-size="25" font-weight="600" letter-spacing="0.2">
+      Physiotherapy clinic &amp;
+    </text>
+    <text x="0" y="38" font-size="25" font-weight="600" letter-spacing="0.2">
+      Neuro inpatient
+    </text>
+    <text x="0" y="76" font-size="25" font-weight="600" letter-spacing="0.2">
+      Rehabilitation center
+    </text>
+  </g>
+</svg>

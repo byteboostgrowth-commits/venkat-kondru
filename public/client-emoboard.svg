@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 320" width="100%" height="100%">
+  <!-- White Background Rectangle -->
+  <rect width="750" height="320" rx="10" fill="#FFFFFF" />
+
+  <!-- ================= TOP EMOJIS ================= -->
+  <!-- 1. Top Left: Yellow Happy Smiley -->
+  <g transform="translate(75, 55)">
+    <circle cx="0" cy="0" r="28" fill="#FBBF24" />
+    <!-- Happy eyes -->
+    <ellipse cx="-9" cy="-5" rx="3.5" ry="3.5" fill="#FFFFFF" />
+    <ellipse cx="9" cy="-5" rx="3.5" ry="3.5" fill="#FFFFFF" />
+    <!-- Big warm smile -->
+    <path d="M -13 6 Q 0 18, 13 6" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- 2. Top Center-Left: Red Angry Face -->
+  <g transform="translate(305, 55)">
+    <circle cx="0" cy="0" r="28" fill="#EF4444" />
+    <!-- Angry slanted eyebrows & eyes -->
+    <line x1="-14" y1="-10" x2="-4" y2="-4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <circle cx="-9" cy="-2" r="2.5" fill="#FFFFFF" />
+    <line x1="14" y1="-10" x2="4" y2="-4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <circle cx="9" cy="-2" r="2.5" fill="#FFFFFF" />
+    <!-- Angry down-turned mouth -->
+    <path d="M -10 12 Q 0 4, 10 12" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- 3. Top Right: Cyan Sad / Tearful Face -->
+  <g transform="translate(545, 55)">
+    <circle cx="0" cy="0" r="28" fill="#38BDF8" />
+    <!-- Big tearful eyes -->
+    <circle cx="-9" cy="-6" r="4.5" fill="#FFFFFF" />
+    <circle cx="-8" cy="-7" r="1.5" fill="#0284C7" />
+    <circle cx="9" cy="-6" r="4.5" fill="#FFFFFF" />
+    <circle cx="8" cy="-7" r="1.5" fill="#0284C7" />
+    <!-- Pink blush cheeks -->
+    <ellipse cx="-16" cy="4" rx="4" ry="2.5" fill="#F472B6" opacity="0.8" />
+    <ellipse cx="16" cy="4" rx="4" ry="2.5" fill="#F472B6" opacity="0.8" />
+    <!-- Sad downturn mouth -->
+    <path d="M -8 11 Q 0 4, 8 11" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- ================= MAIN BRAND: EMO BOARD ================= -->
+  <g transform="translate(375, 175)">
+    <!-- Word "EMO" and "BOARD" -->
+    <!-- Stylized Rounded Letters: E, M -->
+    <text x="-335" y="10" 
+          font-family="'Arial Rounded MT Bold', 'Fredoka', 'Quicksand', 'Nunito', sans-serif" 
+          font-size="105" 
+          font-weight="900" 
+          fill="#009EE2">
+      EM
+    </text>
+
+    <!-- The "O" in EMO is a friendly Winking Face Badge -->
+    <g transform="translate(-140, -26)">
+      <!-- Outer Blue Ring of the O -->
+      <circle cx="0" cy="0" r="44" fill="#009EE2" />
+      <circle cx="0" cy="0" r="26" fill="#FFFFFF" />
+      
+      <!-- Inside Face: Wink Eye on Left -->
+      <path d="M -12 -5 Q -7 -10, -2 -5" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round" />
+      <!-- Dot Eye on Right -->
+      <circle cx="8" cy="-6" r="3" fill="#000000" />
+      <!-- Smile -->
+      <path d="M -8 8 Q 0 16, 8 8" stroke="#000000" stroke-width="3" fill="#000000" stroke-linecap="round" />
+    </g>
+
+    <!-- Word "BOARD" in bouncy rounded cyan blue -->
+    <text x="-65" y="10" 
+          font-family="'Arial Rounded MT Bold', 'Fredoka', 'Quicksand', 'Nunito', sans-serif" 
+          font-size="105" 
+          font-weight="900" 
+          letter-spacing="2"
+          fill="#009EE2">
+      BOARD
+    </text>
+  </g>
+
+  <!-- ================= BOTTOM EMOJIS ================= -->
+  <!-- 4. Bottom Left: Lavender/Purple Sad Face -->
+  <g transform="translate(180, 240)">
+    <circle cx="0" cy="0" r="28" fill="#A78BFA" />
+    <!-- Squinting closed sad eyes -->
+    <path d="M -14 -4 L -6 -1 L -14 2" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 14 -4 L 6 -1 L 14 2" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <!-- Frown mouth -->
+    <path d="M -10 10 Q 0 3, 10 10" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- 5. Bottom Center: Orange Surprised Face -->
+  <g transform="translate(415, 240)">
+    <circle cx="0" cy="0" r="28" fill="#F59E0B" />
+    <!-- Wide open white eyes -->
+    <circle cx="-9" cy="-6" r="4.5" fill="#FFFFFF" />
+    <circle cx="-9" cy="-6" r="2" fill="#000000" />
+    <circle cx="9" cy="-6" r="4.5" fill="#FFFFFF" />
+    <circle cx="9" cy="-6" r="2" fill="#000000" />
+    <!-- Round open mouth -->
+    <ellipse cx="0" cy="9" rx="5.5" ry="7.5" fill="#000000" />
+  </g>
+
+  <!-- 6. Bottom Right: Grey Stressed / Frustrated Face -->
+  <g transform="translate(685, 240)">
+    <circle cx="0" cy="0" r="28" fill="#6B7280" />
+    <!-- Squinting stressed eyes (> <) -->
+    <path d="M -14 -6 L -6 -2 L -14 2" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 14 -6 L 6 -2 L 14 2" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <!-- Zigzag shivering mouth -->
+    <path d="M -11 10 L -6 7 L -1 11 L 4 7 L 9 10" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- ================= TAGLINE: CONNECTING EMOTIONS ================= -->
+  <!-- Playful pastel multi-color spaced letters -->
+  <g transform="translate(375, 290)" 
+     font-family="'Montserrat', 'Arial', sans-serif" 
+     font-size="21" 
+     font-weight="800" 
+     letter-spacing="12" 
+     text-anchor="middle">
+    <text x="0" y="0">
+      <tspan fill="#F59E0B">C</tspan>
+      <tspan fill="#F97316">O</tspan>
+      <tspan fill="#EF4444">N</tspan>
+      <tspan fill="#EC4899">N</tspan>
+      <tspan fill="#A855F7">E</tspan>
+      <tspan fill="#6366F1">C</tspan>
+      <tspan fill="#3B82F6">T</tspan>
+      <tspan fill="#06B6D4">I</tspan>
+      <tspan fill="#10B981">N</tspan>
+      <tspan fill="#84CC16">G</tspan>
+      <tspan fill="transparent"> </tspan>
+      <tspan fill="#EAB308">E</tspan>
+      <tspan fill="#F97316">M</tspan>
+      <tspan fill="#EF4444">O</tspan>
+      <tspan fill="#06B6D4">T</tspan>
+      <tspan fill="#3B82F6">I</tspan>
+      <tspan fill="#6366F1">O</tspan>
+      <tspan fill="#64748B">N</tspan>
+      <tspan fill="#475569">S</tspan>
+    </text>
+  </g>
+</svg>

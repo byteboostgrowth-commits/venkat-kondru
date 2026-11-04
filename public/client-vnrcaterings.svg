@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- White Background Rectangle for high visibility -->
+  <rect width="500" height="500" rx="10" fill="#FFFFFF" />
+
+  <!-- Circular Dark Badge Frame -->
+  <circle cx="250" cy="245" r="230" fill="#0D0D11" />
+
+  <!-- Crossed Golden Utensils in Background -->
+  <g transform="translate(250, 160)" stroke="#D4AF37" fill="#D4AF37">
+    <!-- Golden Spoon on Left -->
+    <g transform="rotate(-40)">
+      <ellipse cx="0" cy="-140" rx="18" ry="28" fill="#D4AF37" />
+      <line x1="0" y1="-115" x2="0" y2="120" stroke="#D4AF37" stroke-width="8" stroke-linecap="round" />
+    </g>
+    <!-- Golden 4-Tine Fork on Right -->
+    <g transform="rotate(40)">
+      <path d="M -16 -160 L -16 -130 C -16 -115, 16 -115, 16 -130 L 16 -160 M -6 -160 L -6 -125 M 6 -160 L 6 -125" stroke="#D4AF37" stroke-width="3" fill="none" stroke-linecap="round" />
+      <path d="M -16 -130 C -16 -110, 16 -110, 16 -130 Z" fill="#D4AF37" />
+      <line x1="0" y1="-115" x2="0" y2="120" stroke="#D4AF37" stroke-width="8" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- ================= CHEF CHARACTER ================= -->
+  <g transform="translate(250, 155)">
+    <!-- 1. White Chef Toque (Hat) -->
+    <!-- Puffy upper clouds of toque -->
+    <path d="M -50 -55 
+             C -65 -85, -50 -115, -25 -110 
+             C -15 -130, 20 -130, 30 -110 
+             C 50 -115, 65 -85, 50 -55 
+             Z" 
+          fill="#FFFFFF" stroke="#0D0D11" stroke-width="2.5" />
+    <!-- Toque pleat lines -->
+    <path d="M -22 -110 C -20 -80, -25 -65, -30 -55" stroke="#CBD5E1" stroke-width="2" fill="none" />
+    <path d="M 5 -125 C 2 -95, 0 -75, 0 -55" stroke="#CBD5E1" stroke-width="2" fill="none" />
+    <path d="M 28 -110 C 25 -80, 25 -65, 30 -55" stroke="#CBD5E1" stroke-width="2" fill="none" />
+    <!-- Hat band -->
+    <path d="M -36 -55 L 36 -55 L 34 -38 L -34 -38 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+
+    <!-- 2. Chef Face & Beard -->
+    <!-- Skin tone -->
+    <path d="M -26 -38 L 26 -38 L 24 -15 C 24 10, -24 10, -24 -15 Z" fill="#E2A77A" />
+    <!-- Friendly smiling eyes & arched eyebrows -->
+    <path d="M -16 -28 Q -10 -32, -4 -28" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle cx="-10" cy="-24" r="2.5" fill="#1E293B" />
+    <path d="M 4 -28 Q 10 -32, 16 -28" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle cx="10" cy="-24" r="2.5" fill="#1E293B" />
+    <!-- Nose -->
+    <path d="M -2 -22 Q 0 -16, 4 -20" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round" />
+    <!-- Happy White Teeth Smile inside beard -->
+    <path d="M -10 -12 Q 0 -4, 10 -12 Z" fill="#FFFFFF" />
+
+    <!-- Full Black Groomed Beard -->
+    <path d="M -26 -28 C -32 -10, -28 20, 0 28 C 28 20, 32 -10, 26 -28 C 22 -18, 14 -12, 10 -10 C 6 -14, -6 -14, -10 -10 C -14 -12, -22 -18, -26 -28 Z" fill="#1E293B" />
+    <path d="M -12 -12 Q 0 -6, 12 -12 Q 0 -18, -12 -12" fill="#1E293B" />
+
+    <!-- 3. White Double-Breasted Chef Jacket -->
+    <!-- Shoulders & Coat -->
+    <path d="M -75 50 L -42 -8 L -20 -2 L 0 5 L 20 -2 L 42 -8 L 75 50 Z" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+    <!-- Chef Collar -->
+    <path d="M -22 -8 L 0 8 L 22 -8 L 16 -12 L -16 -12 Z" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5" />
+    <!-- Double-breasted buttons -->
+    <circle cx="15" cy="8" r="3" fill="#1E293B" />
+    <circle cx="12" cy="22" r="3" fill="#1E293B" />
+    <circle cx="10" cy="35" r="3" fill="#1E293B" />
+
+    <!-- 4. Folded Arms in Front with Warm Tan/Gold Culinary Etching -->
+    <path d="M -90 62 
+             C -90 40, -40 28, 0 32 
+             C 40 28, 90 40, 90 62 
+             C 90 85, 45 92, 0 92 
+             C -45 92, -90 85, -90 62 Z" 
+          fill="#D9B782" stroke="#0D0D11" stroke-width="3" />
+    <!-- Culinary Doodles on Crossed Sleeves -->
+    <g stroke="#8C6D37" stroke-width="1.2" fill="none" opacity="0.85">
+      <!-- Cutlery, leaf, pot, pizza slice sketches -->
+      <path d="M -60 52 Q -45 42, -30 50" />
+      <path d="M -40 60 Q -30 75, -20 62" />
+      <circle cx="-50" cy="65" r="4" />
+      <path d="M 30 50 Q 45 42, 60 52" />
+      <path d="M 20 62 Q 30 75, 40 60" />
+      <circle cx="50" cy="65" r="4" />
+      <line x1="-15" y1="48" x2="15" y2="48" />
+      <line x1="-20" y1="75" x2="20" y2="75" />
+    </g>
+  </g>
+
+  <!-- ================= BOLD TYPOGRAPHY: VNR ================= -->
+  <!-- Massive Slab-Serif Typography in White with Dark Outline -->
+  <text x="250" y="340" 
+        font-family="'Impact', 'Arial Black', sans-serif" 
+        font-size="96" 
+        font-weight="900" 
+        letter-spacing="4" 
+        text-anchor="middle" 
+        fill="#FFFFFF">
+    VNR
+  </text>
+
+  <!-- ================= BANNER: CATERING ================= -->
+  <g transform="translate(250, 405)">
+    <!-- Curved Cream/White Ribbon Banner -->
+    <path d="M -150 -25 
+             C -80 -38, 80 -38, 150 -25 
+             L 135 15 
+             C 70 2, -70 2, -135 15 
+             Z" 
+          fill="#FFFFFF" stroke="#D4AF37" stroke-width="3" />
+    <!-- Ribbon fold tails -->
+    <path d="M -150 -25 L -165 -10 L -135 15 Z" fill="#C59B27" />
+    <path d="M 150 -25 L 165 -10 L 135 15 Z" fill="#C59B27" />
+
+    <!-- "CATERING" in Regal Gold -->
+    <text x="0" y="-3" 
+          font-family="'Times New Roman', 'Cinzel', serif" 
+          font-size="34" 
+          font-weight="900" 
+          letter-spacing="8" 
+          text-anchor="middle" 
+          fill="#C59B27">
+      CATERING
+    </text>
+
+    <!-- "ESTD ★ 2006" -->
+    <text x="0" y="38" 
+          font-family="'Montserrat', 'Arial', sans-serif" 
+          font-size="16" 
+          font-weight="800" 
+          letter-spacing="3" 
+          text-anchor="middle" 
+          fill="#E2E8F0">
+      ESTD ★ 2006
+    </text>
+  </g>
+</svg>

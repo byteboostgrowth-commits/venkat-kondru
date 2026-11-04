@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%">
+  <defs>
+    <!-- 3D Blue Shading Gradients -->
+    <linearGradient id="aaluriBlueLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="aaluriBlueDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- White Background Rectangle -->
+  <rect width="850" height="250" rx="8" fill="#FFFFFF" />
+
+  <!-- Phone Number Badge at Top Right -->
+  <g transform="translate(680, 25)">
+    <rect x="-10" y="-12" width="165" height="24" rx="3" fill="#0C4A6E" />
+    <text x="72" y="4" 
+          font-family="'Arial', sans-serif" 
+          font-size="11" 
+          font-weight="bold" 
+          text-anchor="middle" 
+          fill="#FFFFFF">
+      📞 040 - 2713 2713 / 2703 6665
+    </text>
+  </g>
+
+  <!-- ================= LOGO ICON: 3D "A" WITH CROSS & PERSON ================= -->
+  <g transform="translate(80, 115)">
+    <!-- 3D Extrusion Shadow for Letter A -->
+    <path d="M 0 -80 L 45 60 L 25 60 L 12 15 L -12 15 L -25 60 L -45 60 Z" fill="#0F172A" transform="translate(5, 5)" />
+    
+    <!-- Main Triangular Letter A Frame in Deep Blue -->
+    <path d="M 0 -80 L 45 60 L 25 60 L 14 18 L -14 18 L -25 60 L -45 60 Z" fill="url(#aaluriBlueLight)" stroke="#0C2563" stroke-width="2" />
+    
+    <!-- White / Cyan Inner Triangular Window with Medical Cross -->
+    <polygon points="0,-45 18,10 -18,10" fill="#FFFFFF" />
+    
+    <!-- Medical Cross inside A in Cyan/Teal -->
+    <g transform="translate(0, -12)">
+      <rect x="-5" y="-18" width="10" height="36" fill="#0284C7" rx="1" />
+      <rect x="-18" y="-5" width="36" height="10" fill="#0284C7" rx="1" />
+      
+      <!-- Healing Figure inside Cross in White -->
+      <circle cx="0" cy="-8" r="3.5" fill="#FFFFFF" />
+      <path d="M -3 -2 Q 0 8, 3 -2 Q 5 12, 0 16 Q -5 12, -3 -2 Z" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- ================= 3D TYPOGRAPHY: AALURI HOSPITAL ================= -->
+  <g transform="translate(150, 110)">
+    <!-- 3D Shadow Layer -->
+    <text x="4" y="4" 
+          font-family="'Impact', 'Arial Black', 'Trebuchet MS', sans-serif" 
+          font-size="64" 
+          font-weight="900" 
+          letter-spacing="2" 
+          fill="#091E42">
+      AALURI HOSPITAL
+    </text>
+    
+    <!-- 3D Front Face in Vibrant Royal Blue with High-Contrast Bevel Stroke -->
+    <text x="0" y="0" 
+          font-family="'Impact', 'Arial Black', 'Trebuchet MS', sans-serif" 
+          font-size="64" 
+          font-weight="900" 
+          letter-spacing="2" 
+          fill="#1D4ED8" 
+          stroke="#003580" 
+          stroke-width="1.5">
+      AALURI HOSPITAL
+    </text>
+  </g>
+
+  <!-- ================= 3D TAGLINE: WITH THE SKILL TO HEAL, SPIRIT TO CARE ================= -->
+  <g transform="translate(152, 160)">
+    <!-- 3D Shadow -->
+    <text x="2" y="2" 
+          font-family="'Impact', 'Arial Black', sans-serif" 
+          font-size="25" 
+          font-weight="900" 
+          letter-spacing="1" 
+          fill="#091E42">
+      WITH THE SKILL TO HEAL, SPIRIT TO CARE
+    </text>
+    
+    <!-- Front Face -->
+    <text x="0" y="0" 
+          font-family="'Impact', 'Arial Black', sans-serif" 
+          font-size="25" 
+          font-weight="900" 
+          letter-spacing="1" 
+          fill="#1D4ED8" 
+          stroke="#003580" 
+          stroke-width="1">
+      WITH THE SKILL TO HEAL, SPIRIT TO CARE
+    </text>
+  </g>
+</svg>

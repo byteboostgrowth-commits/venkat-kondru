@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <!-- White Background Rectangle -->
+  <rect width="600" height="360" rx="8" fill="#FFFFFF" />
+
+  <!-- ================= MONOGRAM V WITH WOMAN PROFILE & LEAVES ================= -->
+  <g transform="translate(300, 120)">
+    <!-- Main Big Emerald Green 'V' -->
+    <!-- Left Stem of V with Woman Profile integrated into the inner boundary -->
+    <!-- Left outer serif and stem -->
+    <path d="M -115 -85 L -35 -85 L -35 -72 L -58 -72 L -15 35 L 0 75 L -15 35 L -45 -45 L -85 -72 L -115 -72 Z" fill="#235C2E" opacity="0" />
+    
+    <!-- Complete V Contour combining silhouette and right stem -->
+    <!-- Left top serif bar -->
+    <rect x="-115" y="-85" width="75" height="12" fill="#235C2E" rx="2" />
+    
+    <!-- Left stem descending into V vertex, carved with feminine profile silhouette -->
+    <!-- Outer slope -->
+    <path d="M -105 -73 L -15 85 L 0 85 L 15 85 L 105 -73 L 30 -73 L 30 -85 L 105 -85 L 115 -85 L 115 -73 L 88 -73 L 0 72 L -58 -73 Z" fill="#235C2E" />
+
+    <!-- Woman's Serene Side Profile in Emerald Green -->
+    <!-- Head outline, hair bun curve, forehead, delicate nose, lips, chin, neck -->
+    <path d="M -60 -15 C -55 -40, -45 -60, -32 -60 C -22 -60, -22 -40, -32 -20 C -36 -12, -45 -5, -45 5 C -45 15, -42 22, -38 28 C -35 34, -20 40, -10 50 C -5 55, 0 65, 0 72 C -15 60, -35 48, -48 30 C -55 20, -62 0, -60 -15 Z" fill="#235C2E" />
+
+    <!-- Pure profile contour cutout for face definition (White face silhouette against green V) -->
+    <path d="M -62 -10 C -52 -18, -42 -30, -38 -45 C -40 -35, -44 -26, -50 -18 C -54 -12, -60 -6, -62 -2 C -63 2, -60 5, -57 8 C -59 10, -62 12, -60 16 C -58 19, -54 22, -48 26 C -42 30, -35 42, -30 55 C -35 48, -45 38, -55 26 C -62 16, -65 5, -62 -10 Z" fill="#FFFFFF" />
+
+    <!-- Elegant Silk Leaf Flora Branch Sprouting from center/right -->
+    <!-- Leaf 1: Top leaf pointing up -->
+    <path d="M -22 -62 C -10 -72, -18 -88, -20 -95 C -30 -88, -36 -72, -22 -62 Z" fill="#235C2E" />
+    <circle cx="-10" cy="-90" r="5" fill="#235C2E" />
+
+    <!-- Leaf 2: Main large leaf sweeping upper right -->
+    <path d="M -15 -42 C 0 -68, 16 -75, 35 -72 C 30 -52, 10 -40, -15 -42 Z" fill="#235C2E" />
+    <path d="M -15 -42 Q 10 -58, 35 -72" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+
+    <!-- Leaf 3: Lateral right leaf -->
+    <path d="M 0 -22 C 22 -35, 45 -30, 58 -18 C 45 -4, 20 -6, 0 -22 Z" fill="#235C2E" />
+    <path d="M 0 -22 Q 28 -20, 58 -18" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+
+    <!-- Central Pearl Buds -->
+    <circle cx="8" cy="-32" r="6" fill="#235C2E" />
+    <circle cx="8" cy="-32" r="2.5" fill="#FFFFFF" />
+    <circle cx="58" cy="-28" r="5" fill="#235C2E" />
+    <circle cx="55" cy="5" r="5.5" fill="#235C2E" />
+    <circle cx="55" cy="5" r="2" fill="#FFFFFF" />
+
+    <!-- Leaf 4: Lower sweeping leaf -->
+    <path d="M 8 -12 C 30 -5, 52 15, 65 35 C 45 42, 25 22, 8 -12 Z" fill="#235C2E" />
+    <path d="M 8 -12 Q 38 15, 65 35" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+
+    <!-- Leaf 5: Descending lower leaf -->
+    <path d="M 12 12 C 25 35, 38 60, 48 80 C 35 78, 20 58, 12 12 Z" fill="#235C2E" />
+  </g>
+
+  <!-- ================= BRAND NAME: Veni Varnika silks ================= -->
+  <!-- Olive Gold / Regal Antique Gold Serif -->
+  <text x="300" y="275" 
+        font-family="'Playfair Display', 'Cinzel', 'Baskerville', 'Georgia', serif" 
+        font-size="44" 
+        font-weight="700" 
+        text-anchor="middle" 
+        fill="#B88E33" 
+        letter-spacing="1">
+    Veni Varnika silks
+  </text>
+
+  <!-- ================= SUBTITLE WITH ACCENT LINES ================= -->
+  <g transform="translate(300, 310)">
+    <!-- Left gold hairline -->
+    <line x1="-210" y1="-5" x2="-120" y2="-5" stroke="#B88E33" stroke-width="1.5" />
+    
+    <!-- Tagline in sleek dark charcoal -->
+    <text x="0" y="0" 
+          font-family="'Montserrat', 'Arial', sans-serif" 
+          font-size="15" 
+          font-weight="500" 
+          letter-spacing="2" 
+          text-anchor="middle" 
+          fill="#334155">
+      Premium clothing for Women
+    </text>
+
+    <!-- Right gold hairline -->
+    <line x1="120" y1="-5" x2="210" y2="-5" stroke="#B88E33" stroke-width="1.5" />
+  </g>
+</svg>
